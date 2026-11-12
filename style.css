@@ -14,6 +14,7 @@
 .logo-text{
     font-size: 2.2em;
 }
+
 /* Orange top bar */
 
 .orange-main {
@@ -47,15 +48,13 @@ nav {
     font-weight: bold;
 }
 
-nav a {
-    color: black !important;
-    transition: all 0.6s ease-in-out;
-}
-
-nav a:hover {
+nav .nav-link:hover {
     color: rgb(232, 184, 94) !important;
 }
 
+nav .navbar-brand {
+    color: black !important;
+}
 /* Buttons */
 
 .hero-buttons{
@@ -233,13 +232,14 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 .btn-box{
     display: flex;
     justify-content: end;
-    padding: 0 2px;
+    padding: 3px 0;
 }
 .hight{
     height: 44px;
-    width: 110px;
+    width: 125px;
     border-radius: 0;
-   background-color: rgba(232, 184, 94, 0.582);
+    padding: 5px;
+   background-color: rgba(232, 184, 94, 0.747);
 
 }
 .img1{
@@ -280,14 +280,14 @@ display: flex;
 }
 .icon-line-box{
 position: relative;
-top: 80%;
+top: 81%;
 left: 0;
 right: 0;
 }
 
 .border-line{
     height: 14px;
-    width: 85px;
+    width: 100px;
     background-color: rgb(232, 184, 94);
 }
 .width{
@@ -307,6 +307,68 @@ right: 0;
     color: white;
    
 }
+
+
+
+
+
+
+/*  sec 4th =========================================================================== css */
+.white-img-bg{
+   height: 600px;
+   width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/736x/f6/eb/f5/f6ebf5a5f4a525153c6262a9983d1da8.jpg);
+}
+.white-card-main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+}
+.img-content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card-child-{
+    min-height: 450px;
+    width: 350px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 5em;
+    padding: 15px 15px;
+}
+.gray{
+    background-color: rgb(249, 249, 249)
+    ;border: 1px dashed rgb(66, 66, 66);
+}
+.img-land{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 2, 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

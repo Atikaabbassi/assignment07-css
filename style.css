@@ -315,7 +315,7 @@ right: 0;
 
 /*  sec 4th =========================================================================== css */
 .white-img-bg{
-   height: 600px;
+   min-height: 655px;
    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,17 +358,200 @@ right: 0;
 }
 
 
+/*  section  5th start ======================================================================  */
+
+
+.bg-img-parent{
+    height: 800px;
+    width: 100%;
+    background-image: url(./asstes/featured-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 10px;
+}
+
+.bg-img-child{
+  
+    height: 500px;
+    width: 50%;
+      padding: 10px 10px;
+      margin-top: 5em;
+      color: white;
+    
+}
+.now{
+    width: 200px;
+    border-radius: 15px;
+    font-weight: 100;
+}
+.bg-img-content{
+    padding: 10px 20px;
+}
+
+.parent-line- {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.line- {
+    width: 100%;
+    height: 13px;
+      background-color: #ffcc55;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+.circle-{
+    width: 65px;
+    height: 65px;
+    background-color: #ffcc55;
+    border-radius: 50%;
+    font-weight: bold;
+
+    position: absolute;
+    top: -5px;
+    left: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-box-main-{
+    display: flex;
+ justify-content: space-around;
+    /* gap: 70px; */
+}
+.vedio{
+    width: 550px;
+    height: 355px;
+    border-radius: 20px;
+   background-image: url(./asstes/video.jpg);
+    margin: auto;
+    margin-top: 3.5em;
+}
+
+
+/*  section  6th start ======================================================================  */
+
+
+.six-main-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+.six-sec-child {
+    width: 100%;
+}
+
+.img-flex-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.img-box-child {
+    width: 35%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+
+.img-box-child:hover {
+    transform: scale(1.04);
+}
+
+/* Team Name =============================================== */
+.team-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    color: white;
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.9)
+    );
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease;
+}
+
+/*  =========================================== */
+.img-box-child:hover .team-name {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.team-name h3 {
+    font-size: 24px;
+    margin: 0 0 7px;
+    color: white;
+}
+
+.team-name p {
+    font-size: 15px;
+    margin: 0;
+    color: #ddd;
+}
+
+/* Images ====================================================== */
+.img-one {
+    background-image: url("./asstes/profile.jpg");
+}
+
+.img-two {
+    background-image: url("./asstes/team-2.jpg");
+}
+
+.img-three {
+    background-image: url("./asstes/team-3.jpg");
+}
+
+.img-four {
+    background-image: url("./asstes/team-4.jpg");
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .img-flex-box {
+        flex-direction: column;
+    }
+
+    .img-box-child {
+        width: 100%;
+        height: 280px;
+    }
+}
 
 
 
-
-
-
-
-
-
-
-
+.img-flex-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.six-sec-content-box{
+    padding: 20px 30px;
+   
+}
 
 
 
